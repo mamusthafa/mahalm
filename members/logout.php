@@ -1,0 +1,1 @@
+<?phpsession_start();if(isset($_SESSION['parents_uname'])) unset($_SESSION['parents_uname']);if(isset($_SESSION['parents_pass'])) unset($_SESSION['parents_pass']);header("Location:login.php?status=Successfully Logged Out!");?>
